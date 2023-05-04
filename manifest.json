@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Color Change New Tab",
+    "version": "1.0",
+    "description": "Override the new tab page to change the background color",
+    "icons": {
+      "48": "icon.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }
